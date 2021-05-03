@@ -1,0 +1,67 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="https://kit.fontawesome.com/d6a343442f.js" crossorigin="anonymous"></script>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Landing Page</title>
+	<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+        <img id="header-img" src="https://i.pinimg.com/originals/a7/53/b6/a753b64848c55e69c65810c227ea8f29.jpg">
+     <div class="logo-text">
+        <h1>DBZStore.gr</h1>
+      </div>  
+      <nav id="nav-bar">
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#video"class="nav-link">Video game intro</a>
+        <a href="#features" class="nav-link">Features</a>
+      </nav>  
+    </header>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+      <h1 id="subtitle">The official Dragonball merchandise store</h1>
+      <input id="email" type="email" placeholder="Enter your email address" name="email"><br>
+      <input id="submit" type="submit" value="Submit">
+    </form>  
+    <div id="features">
+      <i id="shipping" class="fas fa-shipping-fast"></i>
+      <label for="shipping">Fast shipping</label>
+      <h4>We make sure you recieve your products as soon as possible. We also provide free returns if you are not satisfied.</h4>
+      
+      <i id="games" class="fas fa-gamepad"></i>
+      <label for="games">Dragonball games</label>
+      <h4>All the video games of the Dragonball franchice are available for every platform.With the purchase of a game we also send you an official copy of a manga, depicting the events taking place in the game of your choosing.</h4>
+      
+      <i id="dragon" class="fas fa-dragon"></i>
+      <label for="dragon">Shenron wish</label>
+      <h4>With every order of 7 products,Shenron grants one wish of you choosing.Every customer can choose for either one product as a gift or a 25% discount on their next order</h4>
+    </div>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/nauYWnouSLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    
+    <div id="products" class="flex-container">
+      <div>
+        <h2 class="box-header">Miscellaneous<h2>
+          <img id="box-image" src="https://pbs.twimg.com/profile_images/1297783936567787521/V1T0CKiK_400x400.jpg" ><br>
+          <input id="box-submit" type="submit" value="Select">
+      </div>
+      <div>
+        <h2 class="box-header">Video Games<h2>
+          <img id="box-image" src="https://images-na.ssl-images-amazon.com/images/I/81nfgLy1XHL._AC_SX466_.jpg" ><br>
+          <input id="box-submit" type="submit" value="Select">
+      </div>
+      <div>
+        <h2 class="box-header">Figures<h2>
+          <img id="box-image" src="http://www.shutupandtakemyyen.com/wp-content/uploads/2020/11/Dragonball-Z-Goku-Eating-Noodles-Amazon-Exclusive-300x300.jpg" ><br>
+          <input id="box-submit" type="submit" value="Select">
+      </div>
+  </div>
+        <footer>
+          	&#169;Copyright 2021,Elias Dimitriou<br>
+          All rights reserved
+        </footer>    
+  </body>
+</html>
+

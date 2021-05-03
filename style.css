@@ -1,0 +1,224 @@
+body{
+  font-family:"Ravi Prakash",sans-serif;
+  background:#dedcd9;
+  text-align:center;
+}
+
+header{
+  background:#eb8b24;
+  position:fixed;
+  margin-left:auto;
+  margin-right:auto;
+  float:left;
+  overflow:hidden;
+  top:0;
+  left:0;
+  right:0;
+}
+
+#header-img{
+  height:100px;
+  float:left;
+}
+
+.logo-text{
+  font-size:16px;
+  padding-top:10px;
+  padding-left:20px;
+  margin-left:-30px;
+  float:left;
+}
+
+#nav-bar{
+  position:fixed;
+  width:100%;
+  overflow:hidden;
+}
+
+.nav-link{
+  float:right;
+  margin-right:50px;
+  margin-top:35px;
+  text-decoration:none;
+  color:black;
+  font-size:25px;
+}
+
+#email{
+  border-radius:5px;
+  border-outline:none;
+  padding:10px;
+  width:30%;
+  margin-left:auto;
+  margin-right:auto;
+  border:0;
+}
+
+input[type=submit]{
+  width:20%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  border-radius:5px;
+  border:0;
+  border-outline:none;
+  padding:5px;
+  background:#eb8b24;
+  color:black;
+  font-weight:bold;
+}
+
+#box-submit{
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:5px;
+  border-radius:5px;
+  border:0;
+  border-outline:none;
+  padding:10px;
+  background:#eb8b24;
+  color:black;
+  font-weight:bold;
+}
+
+input[type=email]:focus{
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  outline:none !important;
+}
+
+input[type=submit]:focus,#box-submit:focus{
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  outline:none !important;
+  color:black;
+  background:white;
+  font-weight:bold;
+}
+
+
+#subtitle{
+  margin-top:20px;
+  margin-bottom:1px;
+  font-size:40px;
+  font-weight:bold;
+}
+
+#form{
+  width:50%;
+  margin-top:130px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#features{
+  margin-top:70px;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px;
+  
+  text-align:left;
+  color:#eb8b24;
+}
+
+i{
+  font-size:50px;
+}
+
+label{
+  color:black;
+  font-size:40px;
+  margin-left:50px;
+  padding:5px;
+
+}
+
+h4{
+  text-align:left;
+  margin-left:125px;
+  margin-top:-15px;
+  color:black;
+  font-weight:normal;
+  font-size:20px;
+}
+
+.flex-container{
+  display:flex;
+  width:50%;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin-top: 10px;
+  margin-bottom:10px;
+  width:50%;
+  margin-left:10px;
+  margin-right:10px;
+  padding: 10px;
+  font-size: 20px;
+  height:250px;
+  border-radius:5px;
+  border:1px solid black;
+  background:white;
+  overflow:hidden;
+}
+
+.box-header{
+  margin:-10px;
+  font-size:20px;
+  background:#eb8b24;
+  width:match-parent;
+  border-radius-top:5px;
+}
+
+#box-image{
+  height:150px;
+  width:auto;
+}
+
+footer{
+  width:55%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  background:#eb8b24;
+  border-radius:10px;
+}
+
+@media screen and (max-width: 900px) {
+  iframe,.flex-container,#form,#features{
+    float: none;
+    width: 100%;
+    margin:auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #box-image {
+    float: none;
+    width: auto;
+    height:120px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #form {
+    float: none;
+    width: auto;
+    height:auto;
+    margin-top:100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-link {
+    float: none;
+    width: auto;
+    height:auto;
+    position:absolute;
+  }
+}
+
